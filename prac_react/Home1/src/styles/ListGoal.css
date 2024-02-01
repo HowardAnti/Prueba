@@ -1,0 +1,92 @@
+:root{
+    --green: #1C9675;
+    --blue: #1B1C1F;
+    --red: #B2324A;
+    --green2: #117A7A;
+    --gray:#767E8C;
+    --gray2:#5A5A5A;
+    --white:#F6F7F9;
+    --sm: 16px;
+    --md: 20px;
+    --lg: 40px;
+
+}
+
+.title{
+    font-size: var(--lg);
+    color: var(--white);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addInput{
+    width: 587px;
+    height: 57px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--white);
+    color: var(--gray);
+    font-size: var(--md);
+    border: none;
+    padding-left: 20px;
+}
+
+.add{
+    width: 94px;
+    height: 57px;
+    background-color: var(--green);
+    border-radius: 0 10px 10px 0;
+    color: var(--white);
+    font-size: var(--md);
+    border: none;
+}
+
+.numbers{
+    display: flex;
+    gap: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    gap: 10px;
+}
+
+.completedInput{
+    width: 334px;
+    height: 40px;
+    background-color: var(--white);
+    color: var(--green2);
+    border-radius: 10px;
+    padding-left: 16px;
+    font-size: var(--sm);
+}
+
+.onDueInput{
+    width: 334px;
+    height: 40px;
+    background-color: var(--white);
+    color: var(--red);
+    border-radius: 10px;
+    padding-left: 16px;
+    font-size: var(--sm);
+}
+
+@media(max-width:760px){
+    
+    .addInput{
+        width: 276px;
+    }
+    
+    .completedInput{
+        width: 150px;
+    }
+
+    .onDueInput{
+        width: 150px;
+    }
+}

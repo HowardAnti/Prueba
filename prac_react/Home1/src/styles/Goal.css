@@ -1,0 +1,76 @@
+:root{
+    --green: #1C9675;
+    --blue: #1B1C1F;
+    --red: #B2324A;
+    --green2: #117A7A;
+    --gray:#767E8C;
+    --gray2:#5A5A5A;
+    --white:#F6F7F9;
+    --sm: 16px;
+    --md: 20px;
+    --lg: 40px;
+
+}
+
+.goal{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+
+.noncompleted{
+    width: 617px;
+    height: 57px;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 16px;
+    border: solid var(--gray2) 1px;
+    border-right: none;
+    background-color: var(--white);
+    font-size: var(--md);
+    color: var(--gray2);
+}
+
+.completed{
+    width: 617px;
+    height: 57px;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 16px;
+    border: solid var(--gray2) 1px;
+    border-right: none;
+    background-color: var(--white);
+    font-size: var(--md);
+    color: var(--gray2);
+    text-decoration: line-through;
+}
+
+.buttons{
+    background-color: var(--white);
+    height: 57px;
+    border: solid var(--gray2) 1px;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+button{
+    border: none;
+}
+
+button img{
+    width: 20px;
+    height: 20px;
+}
+
+@media(max-width:760px){
+    .noncompleted{
+        width: 300px;
+    }
+
+    .completed{
+        width: 300px;
+    }
+}
