@@ -1,0 +1,25 @@
+.product{
+    width: 300px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addProduct{
+    width: 240px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Nunito",sans-serif;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Nunito",sans-serif;
+}

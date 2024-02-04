@@ -1,0 +1,88 @@
+.boughtProduct{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3A3A;
+    padding: 7px 0px 7px 0px;
+}
+
+.images{
+    width: 50px;
+    height: 50px;
+}
+.images img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.actions{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 15px 0px 15px;
+    gap: 5px;
+}
+.actions p{
+    font-family: Nunito,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.actions button{
+    margin: 0;
+    font-size: 10px;
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    padding: 2px 7px 2px 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.prices{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+.prices p{
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+
+.howMany{
+    width: 15px;
+    height: 15px;
+    background-color: #FB3939;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howMany p{
+    font-size: 8px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
