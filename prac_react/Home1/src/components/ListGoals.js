@@ -1,5 +1,5 @@
 import React from "react";
-import Goal from './Goal';
+import Goal from "./Goal";
 import { useState } from 'react';
 import '../styles/ListGoal.css'
 

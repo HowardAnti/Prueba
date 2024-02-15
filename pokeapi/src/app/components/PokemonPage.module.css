@@ -1,0 +1,107 @@
+.maincointainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.title h1{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btngroup{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.typeButton{
+    height: 35px;
+    width: 330px;
+    border: solid 1px var(--border);
+    border-radius: 5px;
+}
+
+.typeButton p{
+    color: black;
+    text-transform: capitalize;
+
+}
+
+.optioncontainer{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border: solid 1px var(--border);
+    padding: 0px 16px 0px 16px;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+
+
+.option{
+    width: 100%;
+    height: 40px;
+}
+
+.optionButton{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px var(--border);
+}
+
+.optionButton:hover p{
+    font-weight: bold;
+}
+
+.optionButton p{
+    color: black;
+    text-transform: capitalize;
+}
+
+.vertical{
+    height: 100%;
+    width: 10px;
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons p{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttons button{
+    width: 30px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
