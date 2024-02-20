@@ -1,0 +1,48 @@
+.mainContainer{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    border: solid var(--black3) 2px;
+    gap: 0px;
+    font-family: Poppins,sans-serif;
+}
+
+.span1{
+    margin-top: 18px;
+    color: var(--black);
+    font-weight: 500;
+}
+
+.imageProject{
+    width: 100%;
+}
+
+.imageProject img{
+    border-radius: 10px;
+    width: 100%;
+    object-fit: inherit;
+}
+
+.mainButton{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    border: none;
+    font-family: Poppins,sans-serif;
+    gap: 5px;
+    padding: 0;
+    font-size: var(--sm);
+    color: var(--black2);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mainButton img{
+    width: 20px;
+}

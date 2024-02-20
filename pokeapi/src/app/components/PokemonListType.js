@@ -15,7 +15,7 @@ function PokemonListType({poketype,page}){
         fetch(url).then(res=>res.json()).then(data=>{
             setPokemons(data.pokemon);
         })
-    })
+    },[poketype])
 
     const shownPokemons=pokemons.slice(0+12*page,12+12*page);
 
